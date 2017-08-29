@@ -7,8 +7,8 @@ import json
 import re
 import os.path
 
-#API_HOST = "https://bitpay.com" #for production, live bitcoin
-API_HOST = "https://test.bitpay.com" #for testing, testnet bitcoin
+#API_HOST = "https://globee.com" #for production, live bitcoin
+API_HOST = "https://test.globee.com" #for testing, testnet bitcoin
 KEY_FILE = "/tmp/key.priv"
 TOKEN_FILE = "/tmp/token.priv"
 

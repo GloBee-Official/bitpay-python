@@ -5,7 +5,7 @@ import json
 import re
 
 class Client:
-  def __init__(self, api_uri="https://bitpay.com", insecure=False, pem=key_utils.generate_pem(), tokens={}):
+  def __init__(self, api_uri="https://globee.com", insecure=False, pem=key_utils.generate_pem(), tokens={}):
     self.uri = api_uri
     self.verify = not(insecure)
     self.pem = pem
